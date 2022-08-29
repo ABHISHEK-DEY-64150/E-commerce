@@ -47,6 +47,11 @@ Install Depedencies :
 ```
 npm install
 ```
+if dependencies is not installed properly use this following command
+```
+npm install --force
+```
+
 
 Run Backend :
 ```
