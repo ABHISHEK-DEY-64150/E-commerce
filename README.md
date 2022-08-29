@@ -45,15 +45,14 @@ Install Depedencies :
 ```
 npm install
 ```
-if any dependency is not installed properly use this following command
-```
-npm install --force
-```
-
-
 Run Backend :
 ```
 npm run dev
+```
+
+if any dependency is not installed properly use this following command
+```
+npm install --force
 ```
 
 
