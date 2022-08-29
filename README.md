@@ -10,8 +10,6 @@ The project is to develop a e-commerce website where a user can buy products fro
 
 
 
-
-
 ## Used Technologies:
 <ul>
 <li>Frontend: Reactjs,HTML,CSS</li>
@@ -26,21 +24,34 @@ https://github.com/sani-1023/E-commerce
 
 ## To run the project
 
+For Frontend(port:3000):
+```
+cd frontend
+```
 Install Depedencies :
 ```
 npm install
 ```
-For Frontend(port:3000):
+
+Run Frontend :
 ```
-cd client
 npm start
 ```
-For Backend(port:3001):
+For Backend(port:4001):
 ```
-cd server
-npm run devStart
+cd backend
+
 ```
 
+Install Depedencies :
+```
+npm install
+```
+
+Run Backend :
+```
+npm run dev
+```
 
 
 
