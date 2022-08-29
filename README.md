@@ -1,7 +1,5 @@
 # E-commerce
 
-# Probaho
-
 ## Introduction
  
 The project is to develop a e-commerce website where a user can buy products from the e-commerce site through bank transaction among supplier and e-commerce site.
@@ -47,7 +45,7 @@ Install Depedencies :
 ```
 npm install
 ```
-if dependencies is not installed properly use this following command
+if any dependency is not installed properly use this following command
 ```
 npm install --force
 ```
