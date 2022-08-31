@@ -1,5 +1,5 @@
 import React from "react";
-import "./OrderItemSupplier.css";
+import "./UserOrder.css";
 import { Link } from "react-router-dom";
 import image from "../../images/macbook.jpg";
 import { removeItemsFromCart } from "../../actions/cartAction";
@@ -12,17 +12,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
-const OrderItemSupplier = ({ item }) => {
-  const Confirm = (id) => {
-    const data = {
-      transactionId: id,
-    };
-
-    axios
-      .post(`api/v1/suppliertransaction`, data)
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err, "it has an error"));
-  };
+const UserOrder = ({ item }) => {
   return (
     <Card>
       <CardContent>
@@ -53,14 +43,13 @@ const OrderItemSupplier = ({ item }) => {
             <h2>
               {item.status === 2 ? (
                 <p style={{ color: "green" }}>Delivered </p>
-              ) : item.status === 0 ? (
-                <p style={{ color: "blue" }}>Processing</p>
+              ) : item.status === 1 ? (
+                <p style={{ color: "blue" }}>Confirmed</p>
               ) : (
                 <p
                   style={{ color: "Red" }}
-                  onClick={() => Confirm(item.transactionId)}
                 >
-                  Confirm
+                  Processing 
                 </p>
               )}
             </h2>
@@ -98,4 +87,4 @@ const OrderItemSupplier = ({ item }) => {
   );
 };
 
-export default OrderItemSupplier;
+export default UserOrder;
