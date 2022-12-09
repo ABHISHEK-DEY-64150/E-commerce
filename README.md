@@ -55,6 +55,41 @@ if any dependency is not installed properly use this following command
 npm install --force
 ```
 
+# Some Screenshots:
+
+<p  align="center"  >
+<img  src="Project_pictures/1.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/2.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/3.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/4.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/5.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/6.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/7.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/8.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/9.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/10.png"  height = "400"/> </p>
+
+<p  align="center"  >
+<img  src="Project_pictures/11.png"  height = "400"/> </p>
+
 
 
 
